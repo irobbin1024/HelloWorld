@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Created by 赖隆斌，check commit message 
+export PATH=/usr/bin/:$PATH
+export PATH=/usr/local/bin/:/usr/local/bin:$PATH
+
+which commitlint >/dev/null 2>&1
+if [ $? -eq 0 ]; then
+	cat $1 | commitlint --config ~/commitlint.config.js
+fi
