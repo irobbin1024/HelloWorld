@@ -7,6 +7,7 @@
 //
 
 #import "HWViewController.h"
+@import HelloWorld;
 
 @interface HWViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIImage * img = [UIImage HelloWorldImageNamed:@"xy_viva_dialog_close_btn"];
+    NSLog(@"img");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

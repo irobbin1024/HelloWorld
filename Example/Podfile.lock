@@ -1,0 +1,27 @@
+PODS:
+  - HelloWorld (0.0.1):
+    - XYCategory
+  - XYCategory (2.0.1):
+    - XYCategory/Foundation (= 2.0.1)
+    - XYCategory/UIKit (= 2.0.1)
+  - XYCategory/Foundation (2.0.1)
+  - XYCategory/UIKit (2.0.1)
+
+DEPENDENCIES:
+  - HelloWorld (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - XYCategory
+
+EXTERNAL SOURCES:
+  HelloWorld:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HelloWorld: cdc194183b64b3decb81635ed4ef5b4aa08b5195
+  XYCategory: f77eac69f051a32cb5256458567ea34316d324f4
+
+PODFILE CHECKSUM: d2892c978cd59c016e5f6690839de7ddaef21833
+
+COCOAPODS: 1.10.1
