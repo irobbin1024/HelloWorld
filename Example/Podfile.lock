@@ -1,5 +1,5 @@
 PODS:
-  - HelloWorld (0.0.1):
+  - HelloWorld (1.0.0):
     - XYCategory
   - XYCategory (2.0.1):
     - XYCategory/Foundation (= 2.0.1)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HelloWorld: cdc194183b64b3decb81635ed4ef5b4aa08b5195
+  HelloWorld: ffb8c0acf9878bcbe641e57933121bebc37fa87e
   XYCategory: f77eac69f051a32cb5256458567ea34316d324f4
 
 PODFILE CHECKSUM: d2892c978cd59c016e5f6690839de7ddaef21833

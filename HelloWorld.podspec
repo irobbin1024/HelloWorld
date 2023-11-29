@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     if $?.success? then tag else "0.0.1" end
   end
   s.name             = 'HelloWorld'
-  s.version          = smart_version
+  s.version          = '1.0.1'
   s.summary          = 'XiaoYing - HelloWorld'
   s.homepage         = 'http://gitlab.quvideo.com/CI-iOS/HelloWorld'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
